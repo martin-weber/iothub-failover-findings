@@ -348,3 +348,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Ignore local settings files potentially containing secrets
+**/Properties/launchSettings.json
+**/appsettings.local.json
